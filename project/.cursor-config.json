@@ -1,0 +1,14 @@
+{
+  "chat": {
+    "autoRun": {
+      "mode": "use_allowlist",
+      "commandAllowlist": [
+        "npm install",
+        "npx",
+        "expo",
+        "cd",
+        "git"
+      ]
+    }
+  }
+}

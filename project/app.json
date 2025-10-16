@@ -1,0 +1,77 @@
+{
+  "expo": {
+    "name": "Kariyer Sağlık",
+    "slug": "kariyer-saglik",
+    "version": "1.0.0",
+    "owner": "ozansahan",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "kariyer-saglik",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": false,
+    "splash": {
+      "image": "./assets/images/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#EF4444"
+    },
+    "android": {
+      "package": "com.ozansahan.kariyersaglik",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#EF4444",
+        "monochromeImage": "./assets/images/icon.png"
+      },
+      "versionCode": 1,
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.READ_MEDIA_IMAGES",
+        "android.permission.ACCESS_MEDIA_LOCATION"
+      ]
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ozansahan.kariyersaglik",
+      "buildNumber": "1",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Uygulama kamera kullanmanıza izin verir.",
+        "NSPhotoLibraryUsageDescription": "Uygulama fotoğraf galerinize erişmenize izin verir.",
+        "NSPhotoLibraryAddUsageDescription": "Uygulama fotoğrafları kaydetmenize izin verir."
+      }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "ca-app-pub-5038479081154492~2076658797",
+          "iosAppId": "ca-app-pub-5038479081154492~2076658797",
+          "user_tracking_usage_description": "This identifier will be used to deliver personalized ads to you."
+        }
+      ],
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/icon.png"
+    },
+    "extra": {
+      "EXPO_PUBLIC_SUPABASE_URL": "https://imqcxaxvjnvhkojyxuyz.supabase.co",
+      "EXPO_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImltcWN4YXh2am52aGtvanl4dXl6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTg4Njk3NjcsImV4cCI6MjA3NDQ0NTc2N30.K4LABVrrHeaY0t7ORdFst-d9F7m4WA-vibcq_uhZgok",
+      "EXPO_PUBLIC_ADMOB_ANDROID_APP_ID": "ca-app-pub-5038479081154492~2076658797",
+      "EXPO_PUBLIC_ADMOB_IOS_APP_ID": "ca-app-pub-5038479081154492~2076658797",
+      "EXPO_PUBLIC_ADMOB_REWARDED_AD_UNIT_ID_JOBS": "ca-app-pub-5038479081154492/8059489507",
+      "EXPO_PUBLIC_ADMOB_BANNER_AD_UNIT_ID": "ca-app-pub-5038479081154492/3002711749",
+      "router": {},
+      "eas": {
+        "projectId": "c3093a8d-3f0d-448b-b84a-ba1cad7c4775"
+      }
+    }
+  }
+}
